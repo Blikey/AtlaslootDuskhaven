@@ -2080,7 +2080,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 --		{ 7, 16943, "", "=q4=Bracers of Ten Storms", "=q1=#m1# =ds=#c7#", "", "7.54%"};
 --		{ 8, 16959, "", "=q4=Bracelets of Wrath", "=q1=#m1# =ds=#c9#", "", "20.29%"};
 --		{ 9, 16951, "", "=q4=Judgement Bindings", "=q1=#m1# =ds=#c4#", "", "13.61%"};
-		{ 10, 31102, "", "=q4=Token of the Forgotten Vanquisher", "=ds=Tier 2 Token", "", "50%"};
+--		{ 10, 31102, "", "=q4=Token of the Forgotten Vanquisher", "=ds=Tier 2 Token", "", "50%"};
 		{ 16, 57080, "", "=q4=The Black Book", "=ds=#s14#, =q1=#m1# =ds=#c8#", "", "18.37%"};
 		{ 17, 57081, "", "=q4=Arcane Infused Gem", "=ds=#s14#, =q1=#m1# =ds=#c2#", "", "17.33%"};
 --		{ 19, 19370, "", "=q4=Mantle of the Blackwing Cabal", "=ds=#s3#, #a1#", "", "18.57%"};
@@ -2100,7 +2100,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 --		{ 7, 16944, "", "=q4=Belt of Ten Storms", "=q1=#m1# =ds=#c7#", "", "6.93%"};
 --		{ 8, 16960, "", "=q4=Waistband of Wrath", "=q1=#m1# =ds=#c9#", "", "20.03%"};
 --		{ 9, 16952, "", "=q4=Judgement Belt", "=q1=#m1# =ds=#c4#", "", "12.23%"};
-		{ 10, 31102, "", "=q4=Token of the Forgotten Vanquisher", "=ds=Tier 2 Token", "", "50%"};
+--		{ 10, 31102, "", "=q4=Token of the Forgotten Vanquisher", "=ds=Tier 2 Token", "", "50%"};
 		{ 16, 57082, "", "=q4=Mind Quickening Gem", "=ds=#s14#, =q1=#m1# =ds=#c3#", "", "18.96%"};
 		{ 17, 57083, "", "=q4=Rune of Metamorphosis", "=ds=#s14#, =q1=#m1# =ds=#c1#", "", "17.66%"};
 --		{ 19, 19372, "", "=q4=Helm of Endless Rage", "=ds=#s1#, #a4#", "", "16.76%"};
@@ -2121,7 +2121,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 --		{ 7, 16949, "", "=q4=Greaves of Ten Storms", "=q1=#m1# =ds=#c7#", "", "5.57%"};
 --		{ 8, 16965, "", "=q4=Sabatons of Wrath", "=q1=#m1# =ds=#c9#", "", "16.84%"};
 --		{ 9, 16957, "", "=q4=Judgement Sabatons", "=q1=#m1# =ds=#c4#", "", "11.28%"};
-		{ 10, 31102, "", "=q4=Token of the Forgotten Vanquisher", "=ds=Tier 2 Token", "", "50%"};
+--		{ 10, 31102, "", "=q4=Token of the Forgotten Vanquisher", "=ds=Tier 2 Token", "", "50%"};
 		{ 12, 20383, "", "=q1=Head of the Broodlord Lashlayer", "=ds=#m3#", "", "100%"};
 		{ 16, 57084, "", "=q4=Venomous Totem", "=ds=#s14#, =q1=#m1# =ds=#c6#", "", "15.06%"};
 		{ 17, 57085, "", "=q4=Lifegiving Gem", "=ds=#s14#, =q1=#m1# =ds=#c9#", "", "14.27%"};
@@ -2143,7 +2143,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 --		{ 7, 16948, "", "=q4=Gauntlets of Ten Storms", "=q1=#m1# =ds=#c7#", "", "2.13%"};
 --		{ 8, 16964, "", "=q4=Gauntlets of Wrath", "=q1=#m1# =ds=#c9#", "", "5.93%"};
 --		{ 9, 16956, "", "=q4=Judgement Gauntlets", "=q1=#m1# =ds=#c4#", "", "3.58%"};
-		{ 10, 31102, "", "=q4=Token of the Forgotten Vanquisher", "=ds=Tier 2 Token", "", "50%"};
+--		{ 10, 31102, "", "=q4=Token of the Forgotten Vanquisher", "=ds=Tier 2 Token", "", "50%"};
 		{ 3, 57097, "", "=q4=Claw of the Black Drake", "=ds=#h3#, #w13#", "", "15.97%"};
 		{ 2, 57098, "", "=q4=Shadow Wing Focus Staff", "=ds=#w9#", "", "3.70%"};
 		{ 1, 57099, "", "=q4=Drake Talon Cleaver", "=ds=#h2#, #w1#", "", "3.18%"};
@@ -2172,7 +2172,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 --		{ 7, 16948, "", "=q4=Gauntlets of Ten Storms", "=q1=#m1# =ds=#c7#", "", "1.93%"};
 --		{ 8, 16964, "", "=q4=Gauntlets of Wrath", "=q1=#m1# =ds=#c9#", "", "6.19%"};
 --		{ 9, 16956, "", "=q4=Judgement Gauntlets", "=q1=#m1# =ds=#c4#", "", "4.45%"};
-		{ 10, 31102, "", "=q4=Token of the Forgotten Vanquisher", "=ds=Tier 2 Token", "", "50%"};
+--		{ 10, 31102, "", "=q4=Token of the Forgotten Vanquisher", "=ds=Tier 2 Token", "", "50%"};
 		{ 16, 57088, "", "=q4=Aegis of Preservation", "=ds=#s14#, =q1=#m1# =ds=#c5#", "", "16.47%"};
 --		{ 18, 19407, "", "=q4=Ebony Flame Gloves", "=ds=#s9#, #a1#", "", "16.59%"};
 --		{ 19, 19405, "", "=q4=Malfurion's Blessed Bulwark", "=ds=#s5#, #a2#", "", "17.03%"};
@@ -2181,7 +2181,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 --		{ 23, 19403, "", "=q4=Band of Forced Concentration", "=ds=#s13#", "", "14.63%"};
 --		{ 24, 19397, "", "=q4=Ring of Blackrock", "=ds=#s13#", "", "5.99%"};
 --		{ 25, 19406, "", "=q4=Drake Fang Talisman", "=ds=#s14#", "", "17.41%"};
-		{ 5, 57096, "", "=q4=Rejuvenating Gem", "=ds=#s14#", "", "5.62%"};
+		{ 4, 57096, "", "=q4=Rejuvenating Gem", "=ds=#s14#", "", "5.62%"};
 		{ 1, 57099, "", "=q4=Drake Talon Cleaver", "=ds=#h2#, #w1#", "", "3.60%"};
 		{ 2, 57098, "", "=q4=Shadow Wing Focus Staff", "=ds=#w9#", "", "2.77%"};
 		{ 3, 57100, "", "=q4=Dragonbreath Hand Cannon", "=ds=#w5#", "", "8.58%"};
@@ -2199,7 +2199,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 --		{ 7, 16948, "", "=q4=Gauntlets of Ten Storms", "=q1=#m1# =ds=#c7#", "", "2.72%"};
 --		{ 8, 16964, "", "=q4=Gauntlets of Wrath", "=q1=#m1# =ds=#c9#", "", "6.63%"};
 --		{ 9, 16956, "", "=q4=Judgement Gauntlets", "=q1=#m1# =ds=#c4#", "", "3.64%"};
-		{ 10, 31102, "", "=q4=Token of the Forgotten Vanquisher", "=ds=Tier 2 Token", "", "50%"};
+--		{ 10, 31102, "", "=q4=Token of the Forgotten Vanquisher", "=ds=Tier 2 Token", "", "50%"};
 --		{ 16, 19430, "", "=q4=Shroud of Pure Thought", "=ds=#s4#", "", "17.50%"};
 --		{ 17, 19396, "", "=q4=Taut Dragonhide Belt", "=ds=#s10#, #a2#", "", "6.41%"};
 --		{ 18, 19433, "", "=q4=Emberweave Leggings", "=ds=#s11#, #a3#", "", "18.73%"};
@@ -2213,18 +2213,19 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 3, 57098, "", "=q4=Shadow Wing Focus Staff", "=ds=#w9#", "", "2.66%"};
 		{ 4, 57102, "", "=q4=Dragon's Touch", "=ds=#w12#", "", "9.06%"};
 		Prev = "BWLEbonrocHEROIC";
-		Next = "BWLGonyxHEROIC";
+		Next = "BWLChromaggusHEROIC";
+--		Next = "BWLGonyxHEROIC";
 	};
 
-	AtlasLoot_Data["BWLGonyxHEROIC"] = {
+--[[	AtlasLoot_Data["BWLGonyxHEROIC"] = {
 		{ 1, 0, "INV_Box_01", "Dalliah", ""};
 		{ 2, 29471, "", "=q4=Reins of the Corrupted Drake", "=ds=#e12#", "", ""};
-		{ 3, 31102, "", "=q4=Token of the Forgotten Vanquisher", "=ds=Tier 2 Token", "", "50%"};
+--		{ 3, 31102, "", "=q4=Token of the Forgotten Vanquisher", "=ds=Tier 2 Token", "", "50%"};
 		{ 16, 0, "INV_Box_01", "Gonyx the Watcher", ""};
-		{ 17, 31102, "", "=q4=Token of the Forgotten Vanquisher", "=ds=Tier 2 Token", "", "50%"};
+--		{ 17, 31102, "", "=q4=Token of the Forgotten Vanquisher", "=ds=Tier 2 Token", "", "50%"};
 		Prev = "BWLFlamegorHEROIC";
 		Next = "BWLChromaggusHEROIC";
-	};
+	};]]--
 
 	AtlasLoot_Data["BWLChromaggusHEROIC"] = {
 --		{ 1, 16917, "", "=q4=Netherwind Mantle", "=q1=#m1# =ds=#c3#", "", "18.09%"};
@@ -2236,7 +2237,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 --		{ 7, 16945, "", "=q4=Epaulets of Ten Storms", "=q1=#m1# =ds=#c7#", "", "6.73%"};
 --		{ 8, 16953, "", "=q4=Judgement Spaulders", "=q1=#m1# =ds=#c4#", "", "10.97%"};
 --		{ 9, 16961, "", "=q4=Pauldrons of Wrath", "=q1=#m1# =ds=#c9#", "", "16.83%"};
-		{ 10, 31102, "", "=q4=Token of the Forgotten Vanquisher", "=ds=Tier 2 Token", "", "100%"};
+--		{ 10, 31102, "", "=q4=Token of the Forgotten Vanquisher", "=ds=Tier 2 Token", "", "100%"};
 --		{ 16, 19386, "", "=q4=Elementium Threaded Cloak", "=ds=#s4#", "", "18.93%"};
 --		{ 17, 19388, "", "=q4=Angelista's Grasp", "=ds=#s10#, #a1#", "", "16.86%"};
 --		{ 18, 19385, "", "=q4=Empowered Leggings", "=ds=#s11#, #a1#", "", "16.27%"};
@@ -2250,7 +2251,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 2, 57104, "", "=q4=Chromatically Tempered Sword", "=ds=#h1#, #w10#", "", "9.05%"};
 		{ 4, 57105, "", "=q4=Elementium Reinforced Bulwark", "=ds=#w8#", "", "8.04%"};
 		{ 3, 57106, "", "=q4=Ashjre'thul, Crossbow of Smiting", "=ds=#w3#", "", "7.51%"};
-		Prev = "BWLGonyxHEROIC";
+		Prev = "BWLFlamegorHEROIC";
 		Next = "BWLNefarian1HEROIC";
 	};
 
@@ -2273,7 +2274,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 --		{ 8, 16966, "", "=q4=Breastplate of Wrath", "=q1=#m1# =ds=#c9#", "", "15.06%"};
 --		{ 17, 16955, "", "=q4=Judgement Crown", "=q1=#m1# =ds=#c4#", "", "8.64%"};
 --		{ 9, 16958, "", "=q4=Judgement Breastplate", "=q1=#m1# =ds=#c4#", "", "9.24%"};
-		{ 10, 31102, "", "=q4=Token of the Forgotten Vanquisher", "=ds=Tier 2 Token", "", "100%"};
+--		{ 10, 31102, "", "=q4=Token of the Forgotten Vanquisher", "=ds=Tier 2 Token", "", "100%"};
 --		{ 16, 19378, "", "=q4=Cloak of the Brood Lord", "=ds=#s4#", "", "14.95%"};
 --		{ 17, 19375, "", "=q4=Mish'undare, Circlet of the Mind Flayer", "=ds=#s1#, #a1#", "", "14.80%"};
 --		{ 18, 19381, "", "=q4=Boots of the Shadow Flame", "=ds=#s12#, #a2#", "", "15.70%"};
