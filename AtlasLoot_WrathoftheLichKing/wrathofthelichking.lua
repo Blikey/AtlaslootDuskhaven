@@ -10524,6 +10524,26 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 24, 22630, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c8#"};
 		{ 26, 49623, "", "=q5=Shadowmourne", "=ds=#h2# #w1#", "" };
 		{ 27, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=ds=#h3# #w6#", "" };
+		Next = "Legendaries2";
+		Back = "SETMENU";
+	};
+	
+	AtlasLoot_Data["Legendaries2"] = {
+		{ 1, 0, "INV_Box_01", "=q6=Rank 1", ""};
+		{ 2, 56809, "", "=q5=Signet of the Berserker", "=ds=#s13#"};
+		{ 3, 56810, "", "=q5=Signet of the Wild", "=ds=#s13#"};
+		{ 4, 56811, "", "=q5=Signet of the Summoner", "=ds=#s13#"};
+		{ 5, 56816, "", "=q5=Signet of the Sharpshooter", "=ds=#s13#"};
+		{ 6, 56865, "", "=q5=Signet of the Healer", "=ds=#s13#"};
+		{ 7, 56866, "", "=q5=Signet of the Defender", "=ds=#s13#"};
+		{ 16, 0, "INV_Box_01", "=q6=Rank 2", ""};
+		{ 17, 57006, "", "=q5=Signet of the Berserker", "=ds=#s13#"};
+		{ 18, 57011, "", "=q5=Signet of the Wild", "=ds=#s13#"};
+		{ 19, 57009, "", "=q5=Signet of the Summoner", "=ds=#s13#"};
+		{ 20, 57008, "", "=q5=Signet of the Sharpshooter", "=ds=#s13#"};
+		{ 21, 57007, "", "=q5=Signet of the Healer", "=ds=#s13#"};
+		{ 22, 57010, "", "=q5=Signet of the Defender", "=ds=#s13#"};
+		Prev = "Legendaries";
 		Back = "SETMENU";
 	};
 

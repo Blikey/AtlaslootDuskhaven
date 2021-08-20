@@ -5413,7 +5413,31 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 22, 16960, "", "=q4=Waistband of Wrath", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "20.03%"};
 		{ 23, 16962, "", "=q4=Legplates of Wrath", "=ds="..BabbleBoss["Ragnaros"], "", "17.23%"};
 		{ 24, 16965, "", "=q4=Sabatons of Wrath", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "16.84%"};
+		Next = "T1T2Warrior2";
+		Back = "T1T2T3SET";
+	};
+	
+	AtlasLoot_Data["T1T2Warrior2"] = {
+--[[		{ 1, 0, "INV_Shield_05", "=q6=#t1s9#", "=ec1=#m30#"};
+		{ 2, 16866, "", "=q4=Helm of Might", "=ds="..BabbleBoss["Garr"]..", 25 #champseal#", "", "11.39%"};
+		{ 3, 16868, "", "=q4=Pauldrons of Might", "=ds="..BabbleBoss["Sulfuron Harbinger"]..", 25 #champseal#", "", "21.14%"};
+		{ 4, 16865, "", "=q4=Breastplate of Might", "=ds="..BabbleBoss["Golemagg the Incinerator"]..", 25 #champseal#", "", "15.28%"};
+		{ 5, 16861, "", "=q4=Bracers of Might", "=ds="..AL["Trash Mobs"]..", 10 #champseal#", "", "0.16%"};
+		{ 6, 16863, "", "=q4=Gauntlets of Might", "=ds="..BabbleBoss["Lucifron"]..", 15 #champseal#", "", "16.40%"};
+		{ 7, 16864, "", "=q4=Belt of Might", "=ds="..AL["Trash Mobs"]..", 15 #champseal#", "", "0.16%"};
+		{ 8, 16867, "", "=q4=Legplates of Might", "=ds="..BabbleBoss["Magmadar"]..", 25 #champseal#", "", "13.97%"};
+		{ 9, 16862, "", "=q4=Sabatons of Might", "=ds="..BabbleBoss["Gehennas"]..", 15 #champseal#", "", "14.48%"};]]--
+		{ 1, 0, "INV_Shield_05", "=q6=#t2s9#", "=ec1=#m31#"};
+		{ 2, 57112, "", "=q4=Helm of Wrath", "", "", ""};
+		{ 3, 57113, "", "=q4=Pauldrons of Wrath", "=ds="..BabbleBoss["Chromaggus"], "", "16.83%"};
+		{ 4, 57114, "", "=q4=Breastplate of Wrath", "=ds="..BabbleBoss["Nefarian"], "", "15.06%"};
+		{ 5, 16959, "", "=q4=Bracelets of Wrath", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "20.29%"};
+		{ 6, 57115, "", "=q4=Gauntlets of Wrath", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "5.93%"};
+		{ 7, 57116, "", "=q4=Waistband of Wrath", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "20.03%"};
+		{ 8, 57117, "", "=q4=Legplates of Wrath", "=ds="..BabbleBoss["Ragnaros"], "", "17.23%"};
+		{ 9, 57118, "", "=q4=Sabatons of Wrath", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "16.84%"};
 		Next = "T1T2WarriorDPS";
+		Prev = "T1T2Warrior";
 		Back = "T1T2T3SET";
 	};
 	
@@ -5436,7 +5460,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 22, 56905, "", "=q4=Waistband of Wrath (DPS)", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "20.03%"};
 		{ 23, 56906, "", "=q4=Legplates of Wrath (DPS)", "=ds="..BabbleBoss["Ragnaros"], "", "15.49%"};
 		{ 24, 56907, "", "=q4=Sabatons of Wrath (DPS)", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "16.84%"};
-		Prev = "T1T2Warrior";
+		Prev = "T1T2Warrior2";
 		Back = "T1T2T3SET";
 	};
 

@@ -665,6 +665,17 @@ end
 	AtlasLoot_TableNames["BWLNefarian1"] = { BabbleBoss["Nefarian"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["BWLNefarian2"] = { BabbleBoss["Nefarian"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["BWLTrashMobs"] = { AL["Trash Mobs"].." ("..BabbleZone["Blackwing Lair"]..")", "AtlasLootOriginalWoW" };
+  -- Blackwing Lair Heroic
+	AtlasLoot_TableNames["BWLRazorgoreHEROIC"] = { BabbleBoss["Razorgore the Untamed"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["BWLVaelastraszHEROIC"] = { BabbleBoss["Vaelastrasz the Corrupt"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["BWLLashlayerHEROIC"] = { BabbleBoss["Broodlord Lashlayer"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["BWLFiremawHEROIC"] = { BabbleBoss["Firemaw"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["BWLEbonrocHEROIC"] = { BabbleBoss["Ebonroc"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["BWLFlamegorHEROIC"] = { BabbleBoss["Flamegor"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["BWLGonyxHEROIC"] = { "Dalliah and Gonyx the Watcher", "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["BWLChromaggusHEROIC"] = { BabbleBoss["Chromaggus"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["BWLNefarian1HEROIC"] = { BabbleBoss["Nefarian"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["BWLNefarian2HEROIC"] = { BabbleBoss["Nefarian"], "AtlasLootOriginalWoW" };
   -- The Deadmines
 	AtlasLoot_TableNames["TheDeadminesEntrance"] = { BabbleZone["The Deadmines"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["TheDeadmines1"] = { BabbleZone["The Deadmines"], "AtlasLootOriginalWoW" };
@@ -1093,6 +1104,7 @@ end
 	AtlasLoot_TableNames["T1T2ShamanEnh"] = { "Enhancement "..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["T1T2Warlock"] = { LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["T1T2Warrior"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].."/"..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." Tank", "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["T1T2Warrior2"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].."/"..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." Tank", "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["T1T2WarriorDPS"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].."/"..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." DPS", "AtlasLootOriginalWoW" };
   -- T3 Sets
 	AtlasLoot_TableNames["T3Druid"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"], "AtlasLootOriginalWoW" };
@@ -1254,6 +1266,7 @@ end
 	AtlasLoot_TableNames["CraftedWeapons2"] = { AL["Crafted Epic Weapons"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["CraftedWeapons3"] = { AL["Crafted Epic Weapons"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["Legendaries"] = { AL["Legendary Items"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["Legendaries2"] = { AL["Legendary Items"], "AtlasLootWotLK" };
   -- Mounts
 	AtlasLoot_TableNames["MountsAlliance1"] = { AL["Alliance Mounts"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["MountsAlliance2"] = { AL["Alliance Mounts"], "AtlasLootWotLK" };
