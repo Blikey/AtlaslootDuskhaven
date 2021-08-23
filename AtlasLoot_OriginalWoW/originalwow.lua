@@ -22,6 +22,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 ---- Dire Maul West
 ---- Gnomeregan
 ---- Maraudon
+---- Naxxramas
 ---- Ragefire Chasm
 ---- Razorfen Downs
 ---- Razorfen Kraul
@@ -1781,6 +1782,8 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 23, 18609, "", "=q4=Anathema", "=q1=#m4#: =ds=#w9#, =q1=#m1# =ds=#c5#"};
 		{ 5, 12325, "", "=q4=Reins of the Frenzied Chimera", "=ds=#e12#", "", "100%"};
 		{ 6, 17782, "", "=q5=Talisman of the Binding Shard", "=ds=#s2#", "", "??.??%"};
+		{ 8, 18563, "", "=q5=Bindings of the Windseeker", " =ds=#m3#, =q1=#m10#", "", "??.??%"};
+		{ 9, 19019, "", "=q5=Thunderfury, Blessed Blade of the Windseeker", "=q1=#m4#: =ds=#h1#, #w10#"};
 		Prev = "MCSulfuronHEROIC";
 		Next = "MCRagnarosHEROIC";
 	};
@@ -1795,21 +1798,22 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 --		{ 7, 16946, "", "=q4=Legplates of Ten Storms", "=q1=#m1# =ds=#c7# (T2)", "", "5.97%"};
 --		{ 8, 16962, "", "=q4=Legplates of Wrath", "=q1=#m1# =ds=#c9# (T2)", "", "17.23%"};
 --		{ 9, 16954, "", "=q4=Judgement Legplates", "=q1=#m1# =ds=#c4# (T2)", "", "10.81%"};
-		{ 1, 17204, "", "=q5=Eye of Sulfuras", "=ds=#m3#", "", "3.42%"};
-		{ 2, 17182, "", "=q5=Sulfuras, Hand of Ragnaros", "=q1=#m4#: =ds=#h2#, #w6#"};
-		{ 4, 19017, "", "=q1=Essence of the Firelord", "=ds=#m3#", "", "0.46%"};
-		{ 5, 19019, "", "=q5=Thunderfury, Blessed Blade of the Windseeker", "=q1=#m4#: =ds=#h1#, #w10#"};
+		{ 16, 17204, "", "=q5=Eye of Sulfuras", "=ds=#m3#", "", "3.42%"};
+		{ 17, 17182, "", "=q5=Sulfuras, Hand of Ragnaros", "=q1=#m4#: =ds=#h2#, #w6#"};
+		{ 19, 19017, "", "=q1=Essence of the Firelord", "=ds=#m3#", "", "0.46%"};
+		{ 20, 19019, "", "=q5=Thunderfury, Blessed Blade of the Windseeker", "=q1=#m4#: =ds=#h1#, #w10#"};
 --		{ 16, 17102, "", "=q4=Cloak of the Shrouded Mists", "=ds=#s4#", "", "14.31%"};
 --		{ 17, 17107, "", "=q4=Dragon's Blood Cape", "=ds=#s4#", "", "15.32%"};
 --		{ 18, 18817, "", "=q4=Crown of Destruction", "=ds=#s1#, #a3#", "", "16.75%"};
---		{ 19, 19137, "", "=q4=Onslaught Girdle", "=ds=#s10#, #a4#", "", "13.18%"};
---		{ 20, 57072, "", "=q4=Choker of the Fire Lord", "=ds=#s2#", "", "16.08%"};
+		{ 4, 19137, "", "=q4=Onslaught Girdle", "=ds=#s10#, #a4#", "", "100%"};
+		{ 5, 19136, "", "=q4=Mana Igniting Cord", "=ds=#s10#, #a1#", "", "100%"};
+		{ 3, 57072, "", "=q4=Choker of the Fire Lord", "=ds=#s2#", "", "16.08%"};
 --		{ 21, 19138, "", "=q4=Band of Sulfuras", "=ds=#s13#", "", "15.64%"};
 --		{ 22, 17063, "", "=q4=Band of Accuria", "=ds=#s13#", "", "14.81%"};
-		{ 16, 57051, "", "=q4=Shard of the Flame", "=ds=#s14#", "", "100%"};
-		{ 17, 57050, "", "=q4=Pure Flame Essence", "=ds=#s14#", "", "100%"};
-		{ 18, 57073, "", "=q4=Perdition's Blade", "=ds=#h1#, #w4#", "", "100%"};
-		{ 19, 57074, "", "=q4=Bonereaver's Edge", "=ds=#h2#, #w10#", "", "100%"};
+		{ 7, 57051, "", "=q4=Shard of the Flame", "=ds=#s14#", "", "100%"};
+		{ 6, 57050, "", "=q4=Pure Flame Essence", "=ds=#s14#", "", "100%"};
+		{ 2, 57073, "", "=q4=Perdition's Blade", "=ds=#h1#, #w4#", "", "100%"};
+		{ 1, 57074, "", "=q4=Bonereaver's Edge", "=ds=#h2#, #w10#", "", "100%"};
 --		{ 27, 17104, "", "=q4=Spinal Reaper", "=ds=#h2#, #w1#", "", " 4.63%"};
 --		{ 28, 17106, "", "=q4=Malistar's Defender", "=ds=#w8#", "", "13.88%"};
 		{ 30, 21110, "", "=q1=Draconic for Dummies", "=ds=#m3#", "", "100%"};
@@ -2731,6 +2735,364 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 27, 17764, "", "=q1=Gem of the Fourth Khan", "=ds=#m3#", "", "100%"};
 		{ 28, 17765, "", "=q1=Gem of the Fifth Khan", "=ds=#m3#", "", "100%"};
 		Prev = "Maraudon1";
+	};
+	
+		-----------------
+		--- Naxxramas ---
+		-----------------
+
+		-------------------------
+		--- Construct Quarter ---
+		-------------------------
+
+	AtlasLoot_Data["Naxx60Patchwerk"] = {
+		{ 1, 22815, "", "=q4=Severance", "=ds=#h2#, #w1#", "", "20%"};
+		{ 2, 22818, "", "=q4=The Plague Bearer", "=ds=#w8#", "", "20%"};
+		{ 3, 22820, "", "=q4=Wand of Fates", "=ds=#w12#", "", "20%"};
+		{ 4, 22960, "", "=q4=Cloak of Suturing", "=ds=#s4#", "", "20%"};
+		{ 5, 22961, "", "=q4=Band of Reanimation", "=ds=#s13#", "", "20%"};
+		{ 7, 22368, "", "=q4=Desecrated Shoulderpads", "=ds=#m3#", "", "33%"};
+		{ 8, 22361, "", "=q4=Desecrated Spaulders", "=ds=#m3#", "", "33%"};
+		{ 9, 22354, "", "=q4=Desecrated Pauldrons", "=ds=#m3#", "", "33%"};
+		{ 16, 22726, "", "=q5=Splinter of Atiesh", "=ds=#m3#", "", "33%"};
+		{ 17, 22632, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c1#"};
+		{ 18, 22589, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c3#"};
+		{ 19, 22631, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c5#"};
+		{ 20, 22630, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c8#"};
+		Next = "Naxx60Grobbulus";
+	};
+
+	AtlasLoot_Data["Naxx60Grobbulus"] = {
+		{ 1, 22988, "", "=q4=The End of Dreams", "=ds=#h3#, #w6#", "", "20%"};
+		{ 2, 22803, "", "=q4=Midnight Haze", "=ds=#h3#, #w4#", "", "20%"};
+		{ 3, 22810, "", "=q4=Toxin Injector", "=ds=#w5#", "", "20%"};
+		{ 4, 22968, "", "=q4=Glacial Mantle", "=ds=#s3#, #a1#", "", "20%"};
+		{ 5, 22967, "", "=q4=Icy Scale Spaulders", "=ds=#s3#, #a3#", "", "20%"};
+		{ 7, 22368, "", "=q4=Desecrated Shoulderpads", "=ds=#m3#", "", "33%"};
+		{ 8, 22361, "", "=q4=Desecrated Spaulders", "=ds=#m3#", "", "33%"};
+		{ 9, 22354, "", "=q4=Desecrated Pauldrons", "=ds=#m3#", "", "33%"};
+		{ 16, 22726, "", "=q5=Splinter of Atiesh", "=ds=#m3#", "", "33%"};
+		{ 17, 22632, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c1#"};
+		{ 18, 22589, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c3#"};
+		{ 19, 22631, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c5#"};
+		{ 20, 22630, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c8#"};
+		Prev = "Naxx60Patchwerk";
+		Next = "Naxx60Gluth1";
+	};
+
+	AtlasLoot_Data["Naxx60Gluth1"] = {
+		{ 1, 22813, "", "=q4=Claymore of Unholy Might", "=ds=#h2#, #w10#", "", "20%"};
+		{ 2, 23075, "", "=q4=Death's Bargain", "=ds=#w8#", "", "20%"};
+		{ 3, 22994, "", "=q4=Digested Hand of Power", "=ds=#s15#", "", "20%"};
+		{ 4, 22983, "", "=q4=Rime Covered Mantle", "=ds=#s3#, #a1#", "", "20%"};
+		{ 5, 22981, "", "=q4=Gluth's Missing Collar", "=ds=#s2#", "", "20%"};
+		{ 7, 22726, "", "=q5=Splinter of Atiesh", "=ds=#m3#", "", "33%"};
+		{ 8, 22632, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c1#"};
+		{ 9, 22589, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c3#"};
+		{ 10, 22631, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c5#"};
+		{ 11, 22630, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c8#"};
+		{ 16, 22368, "", "=q4=Desecrated Shoulderpads", "=ds=#m3#", "", "8.33%"};
+		{ 17, 22370, "", "=q4=Desecrated Belt", "=ds=#m3#", "", "8.33%"};
+		{ 18, 22369, "", "=q4=Desecrated Bindings", "=ds=#m3#", "", "8.33%"};
+		{ 19, 22372, "", "=q4=Desecrated Sandals", "=ds=#m3#", "", "8.33%"};
+		{ 20, 22361, "", "=q4=Desecrated Spaulders", "=ds=#m3#", "", "8.33%"};
+		{ 21, 22363, "", "=q4=Desecrated Girdle", "=ds=#m3#", "", "8.33%"};
+		{ 22, 22362, "", "=q4=Desecrated Wristguards", "=ds=#m3#", "", "8.33%"};
+		{ 23, 22365, "", "=q4=Desecrated Boots", "=ds=#m3#", "", "8.33%"};
+		{ 24, 22354, "", "=q4=Desecrated Pauldrons", "=ds=#m3#", "", "8.33%"};
+		{ 25, 22356, "", "=q4=Desecrated Waistguard", "=ds=#m3#", "", "8.33%"};
+		{ 26, 22355, "", "=q4=Desecrated Bracers", "=ds=#m3#", "", "8.33%"};
+		{ 27, 22358, "", "=q4=Desecrated Sabatons", "=ds=#m3#", "", "8.33%"};
+		Prev = "Naxx60Grobbulus";
+		Next = "Naxx60Thaddius";
+--		Next = "Naxx60Gluth2";
+	};
+
+--[[	AtlasLoot_Data["Naxx60Gluth2"] = {
+		{ 1, 40622, "", "=q4=Spaulders of the Lost Conqueror", "=ds=#e15#", "", "29%"};
+		{ 2, 40623, "", "=q4=Spaulders of the Lost Protector", "=ds=#e15#", "", "30%"};
+		{ 3, 40624, "", "=q4=Spaulders of the Lost Vanquisher", "=ds=#e15#", "", "38%"};
+		{ 4, 40610, "", "=q4=Chestguard of the Lost Conqueror", "=ds=#e15#", "", "9%"};
+		{ 5, 40611, "", "=q4=Chestguard of the Lost Protector", "=ds=#e15#", "", "9%"};
+		{ 6, 40612, "", "=q4=Chestguard of the Lost Vanquisher", "=ds=#e15#", "", "12%"};
+		{ 7, 40619, "", "=q4=Leggings of the Lost Conqueror", "=ds=#e15#", "", "27%"};
+		{ 8, 40620, "", "=q4=Leggings of the Lost Protector", "=ds=#e15#", "", "28%"};
+		{ 9, 40621, "", "=q4=Leggings of the Lost Vanquisher", "=ds=#e15#", "", "36%"};
+		Prev = "Naxx60Gluth1";
+		Next = "Naxx60Thaddius";
+	};]]--
+
+	AtlasLoot_Data["Naxx60Thaddius"] = {
+		{ 1, 22801, "", "=q4=Spire of Twilight", "=ds=#w9#", "", "20%"};
+		{ 2, 22808, "", "=q4=The Castigator", "=ds=#h1#, #w6#", "", "20%"};
+		{ 3, 23000, "", "=q4=Plated Abomination Ribcage", "=ds=#s5#, #a4#", "", "20%"};
+		{ 4, 23070, "", "=q4=Leggings of Polarity", "=ds=#s11#, #a1#", "", "20%"};
+		{ 5, 23001, "", "=q4=Eye of Diminution", "=ds=#s14#", "", "20%"};
+		{ 7, 22367, "", "=q4=Desecrated Circlet", "=ds=#m3#", "", "50%"};
+		{ 8, 22360, "", "=q4=Desecrated Headpiece", "=ds=#m3#", "", "50%"};
+		{ 9, 22353, "", "=q4=Desecrated Helmet", "=ds=#m3#", "", "50%"};
+		{ 16, 22726, "", "=q5=Splinter of Atiesh", "=ds=#m3#", "", "33%"};
+		{ 17, 22632, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c1#"};
+		{ 18, 22589, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c3#"};
+		{ 19, 22631, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c5#"};
+		{ 20, 22630, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c8#"};
+		Prev = "Naxx60Gluth1";
+--		Prev = "Naxx60Gluth2";
+		Next = "Naxx60AnubRekhan";
+	};
+
+		------------------------
+		--- Arachnid Quarter ---
+		------------------------
+
+	AtlasLoot_Data["Naxx60AnubRekhan"] = {
+		{ 1, 22937, "", "=q4=Gem of Nerubis", "=ds=#s15#", "", "20%"};
+		{ 2, 22936, "", "=q4=Wristguards of Vengeance", "=ds=#s8#, #a4#", "", "20%"};
+		{ 3, 22938, "", "=q4=Crpytfiend Silk Cloak", "=ds=#s4#", "", "20%"};
+		{ 4, 22939, "", "=q4=Band of Unanswered Prayers", "=ds=#s13#", "", "20%"};
+		{ 5, 22935, "", "=q4=Touch of Frost", "=ds=#s2#", "", "20%"};
+		{ 7, 22369, "", "=q4=Desecrated Bindings", "=ds=#m3#", "", "33%"};
+		{ 8, 22362, "", "=q4=Desecrated Wristguards", "=ds=#m3#", "", "33%"};
+		{ 9, 22355, "", "=q4=Desecrated Bracers", "=ds=#m3#", "", "33%"};
+		{ 16, 22726, "", "=q5=Splinter of Atiesh", "=ds=#m3#", "", "33%"};
+		{ 17, 22632, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c1#"};
+		{ 18, 22589, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c3#"};
+		{ 19, 22631, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c5#"};
+		{ 20, 22630, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c8#"};
+		Prev = "Naxx60Thaddius";
+		Next = "Naxx60Faerlina";
+	};
+
+	AtlasLoot_Data["Naxx60Faerlina"] = {
+		{ 1, 22806, "", "=q4=Widow's Remorse", "=ds=#h1#, #w10#", "", "20%"};
+		{ 2, 22942, "", "=q4=The Widow's Embrace", "=ds=#h3#, #w6#", "", "20%"};
+		{ 3, 22941, "", "=q4=Polar Shoulder Pads", "=ds=#s3#, #a2#", "", "20%"};
+		{ 4, 22940, "", "=q4=Icebane Pauldrons", "=ds=#s3#, #a4#", "", "20%"};
+		{ 5, 22943, "", "=q4=Malice Stone Pendant", "=ds=#s2#", "", "20%"};
+		{ 7, 22369, "", "=q4=Desecrated Bindings", "=ds=#m3#", "", "33%"};
+		{ 8, 22362, "", "=q4=Desecrated Wristguards", "=ds=#m3#", "", "33%"};
+		{ 9, 22355, "", "=q4=Desecrated Bracers", "=ds=#m3#", "", "33%"};
+		{ 16, 22726, "", "=q5=Splinter of Atiesh", "=ds=#m3#", "", "33%"};
+		{ 17, 22632, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c1#"};
+		{ 18, 22589, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c3#"};
+		{ 19, 22631, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c5#"};
+		{ 20, 22630, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c8#"};
+		Prev = "Naxx60AnubRekhan";
+		Next = "Naxx60Maexxna";
+	};
+
+	AtlasLoot_Data["Naxx60Maexxna"] = {
+		{ 1, 22807, "", "=q4=Wraith Blade", "=ds=#h1#, #w10#", "", "20%"};
+		{ 2, 22804, "", "=q4=Maexxna's Fang", "=ds=#h1#, #w4#", "", "20%"};
+		{ 3, 23220, "", "=q4=Crystal Webbed Robe", "=ds= #s5#, #a1#", "", "20%"};
+		{ 4, 22947, "", "=q4=Pendant of Forgotten Names", "=ds=#s2#", "", "20%"};
+		{ 5, 22954, "", "=q4=Kiss of the Spider", "=ds=#s14#", "", "20%"};
+		{ 7, 22369, "", "=q4=Desecrated Gloves", "=ds=#m3#", "", "33%"};
+		{ 8, 22362, "", "=q4=Desecrated Handguards", "=ds=#m3#", "", "33%"};
+		{ 9, 22355, "", "=q4=Desecrated Gauntlets", "=ds=#m3#", "", "33%"};
+		{ 16, 22726, "", "=q5=Splinter of Atiesh", "=ds=#m3#", "", "33%"};
+		{ 17, 22632, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c1#"};
+		{ 18, 22589, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c3#"};
+		{ 19, 22631, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c5#"};
+		{ 20, 22630, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c8#"};
+		Prev = "Naxx60Faerlina";
+		Next = "Naxx60Razuvious";
+	};
+
+		------------------------
+		--- Military Quarter ---
+		------------------------
+
+	AtlasLoot_Data["Naxx60Razuvious"] = {
+		{ 1, 23014, "", "=q4=Iblis, Blade of the Fallen Seraph", "=ds=#h1#, #w4#", "", "20%"};
+		{ 2, 23009, "", "=q4=Wand of the Whispering Dead", "=ds=#w12#", "", "20%"};
+		{ 3, 23219, "", "=q4=Girdle of the Mentor", "=ds=#s10#, #a4#", "", "20%"};
+		{ 4, 23017, "", "=q4=Veil of Eclipse", "=ds=#s4#", "", "20%"};
+		{ 5, 23018, "", "=q4=Signet of Fallen Defender", "=ds=#s13#", "", "20%"};
+		{ 7, 22369, "", "=q4=Desecrated Sandals", "=ds=#m3#", "", "33%"};
+		{ 8, 22362, "", "=q4=Desecrated Boots", "=ds=#m3#", "", "33%"};
+		{ 9, 22355, "", "=q4=Desecrated Sabatons", "=ds=#m3#", "", "33%"};
+		{ 16, 22726, "", "=q5=Splinter of Atiesh", "=ds=#m3#", "", "33%"};
+		{ 17, 22632, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c1#"};
+		{ 18, 22589, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c3#"};
+		{ 19, 22631, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c5#"};
+		{ 20, 22630, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c8#"};
+		Prev = "Naxx60Maexxna";
+		Next = "Naxx60Gothik";
+	};
+
+	AtlasLoot_Data["Naxx60Gothik"] = {
+		{ 1, 23032, "", "=q4=Glacial Headdress", "=ds=#s1#, #a1#", "", "20%"};
+		{ 2, 23020, "", "=q4=Polar Helmet", "=ds=#s1#, #a2#", "", "20%"};
+		{ 3, 23021, "", "=q4=The Soul Harvester's Bindings", "=ds=#s8#, #a1#", "", "20%"};
+		{ 4, 23073, "", "=q4=Boots of Displacement", "=ds=#s12#, #a2#", "", "20%"};
+		{ 5, 23023, "", "=q4=Sadist's Collar", "=ds=#s2#", "", "20%"};
+		{ 7, 22369, "", "=q4=Desecrated Sandals", "=ds=#m3#", "", "33%"};
+		{ 8, 22362, "", "=q4=Desecrated Boots", "=ds=#m3#", "", "33%"};
+		{ 9, 22355, "", "=q4=Desecrated Sabatons", "=ds=#m3#", "", "33%"};
+		{ 16, 22726, "", "=q5=Splinter of Atiesh", "=ds=#m3#", "", "33%"};
+		{ 17, 22632, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c1#"};
+		{ 18, 22589, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c3#"};
+		{ 19, 22631, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c5#"};
+		{ 20, 22630, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c8#"};
+		Prev = "Naxx60Razuvious";
+		Next = "Naxx60FourHorsemen";
+	};
+
+	AtlasLoot_Data["Naxx60FourHorsemen"] = {
+		{ 1, 22691, "", "=q4=Corrupted Ashbringer", "=ds=#h2#, #w10#", "", "16.66%"};
+		{ 2, 22809, "", "=q4=Maul of the Redeemed Crusader", "=ds=#h2#, #w6#", "", "16.66%"};
+		{ 3, 22811, "", "=q4=Soulstring", "=ds=#w2#", "", "16.66%"};
+		{ 4, 23071, "", "=q4=Leggings of Apocalypse", "=ds=#s11#, #a2#", "", "16.66%"};
+		{ 5, 23025, "", "=q4=Seal of the Damned", "=ds=#s13#", "", "16.66%"};
+		{ 6, 23027, "", "=q4=Warmth of Forgiveness", "=ds=#s14#", "", "16.66%"};
+		{ 8, 22369, "", "=q4=Desecrated Robe", "=ds=#m3#", "", "33%"};
+		{ 9, 22362, "", "=q4=Desecrated Tunic", "=ds=#m3#", "", "33%"};
+		{ 10, 22355, "", "=q4=Desecrated Breastplate", "=ds=#m3#", "", "33%"};
+		{ 16, 22726, "", "=q5=Splinter of Atiesh", "=ds=#m3#", "", "33%"};
+		{ 17, 22632, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c1#"};
+		{ 18, 22589, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c3#"};
+		{ 19, 22631, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c5#"};
+		{ 20, 22630, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c8#"};
+		Prev = "Naxx60Gothik";
+		Next = "Naxx60Noth";
+	};
+
+		----------------------
+		--- Plague Quarter ---
+		----------------------
+
+	AtlasLoot_Data["Naxx60Noth"] = {
+		{ 1, 22816, "", "=q4=Hatchet of Sundered Bone", "=ds=#h1#, #w1#", "", "14.28%"};
+		{ 2, 23029, "", "=q4=Noth's Frigid Heart", "=ds=#s15#", "", "14.28%"};
+		{ 3, 23030, "", "=q4=Cloak of the Scourge", "=ds=#s4#", "", "14.28%"};
+		{ 4, 23028, "", "=q4=Hailstone Band", "=ds=#s13#", "", "14.28%"};
+		{ 5, 23031, "", "=q4=Band of the Inevitable", "=ds=#s13#", "", "14.28%"};
+		{ 6, 23006, "", "=q4=Libram of Light", "=ds=#w16#", "", "14.28%"};
+		{ 7, 23005, "", "=q4=Totem of Flowing Water", "=ds=#w15#", "", "14.28%"};
+		{ 9, 22369, "", "=q4=Desecrated Belt", "=ds=#m3#", "", "33%"};
+		{ 10, 22362, "", "=q4=Desecrated Girdle", "=ds=#m3#", "", "33%"};
+		{ 11, 22355, "", "=q4=Desecrated Waistguard", "=ds=#m3#", "", "33%"};
+		{ 16, 22726, "", "=q5=Splinter of Atiesh", "=ds=#m3#", "", "33%"};
+		{ 17, 22632, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c1#"};
+		{ 18, 22589, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c3#"};
+		{ 19, 22631, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c5#"};
+		{ 20, 22630, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c8#"};
+		Prev = "Naxx60FourHorsemen";
+		Next = "Naxx60Heigan";
+	};
+
+	AtlasLoot_Data["Naxx60Heigan"] = {
+		{ 1, 23035, "", "=q4=Preceptor's Hat", "=ds=#s1#, #a1#", "", "20%"};
+		{ 2, 23033, "", "=q4=Icy Scale Coif", "=ds=#s1#, #a3#", "", "20%"};
+		{ 3, 23019, "", "=q4=Icebane Helmet", "=ds=#s1#, #a4#", "", "20%"};
+		{ 4, 23068, "", "=q4=Legplates of Carnage", "=ds=#s11#, #a4#", "", "20%"};
+		{ 5, 23036, "", "=q4=Necklace of Necropsy", "=ds=#s2#", "", "20%"};
+		{ 7, 22369, "", "=q4=Desecrated Belt", "=ds=#m3#", "", "33%"};
+		{ 8, 22362, "", "=q4=Desecrated Girdle", "=ds=#m3#", "", "33%"};
+		{ 9, 22355, "", "=q4=Desecrated Waistguard", "=ds=#m3#", "", "33%"};
+		{ 16, 22726, "", "=q5=Splinter of Atiesh", "=ds=#m3#", "", "33%"};
+		{ 17, 22632, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c1#"};
+		{ 18, 22589, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c3#"};
+		{ 19, 22631, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c5#"};
+		{ 20, 22630, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c8#"};
+		Prev = "Naxx60Noth";
+		Next = "Naxx60Loatheb";
+	};
+
+	AtlasLoot_Data["Naxx60Loatheb"] = {
+		{ 1, 22800, "", "=q4=Brimstone Staff", "=ds=#w9#", "", "20%"};
+		{ 2, 23039, "", "=q4=The Eye of Nerub", "=ds=#w7#", "", "20%"};
+		{ 3, 23037, "", "=q4=Ring of Spiritual Fervor", "=ds=#s13#", "", "20%"};
+		{ 4, 23038, "", "=q4=Band of Unnatural Forces", "=ds=#s13#", "", "20%"};
+		{ 5, 23042, "", "=q4=Loatheb's Reflection", "=ds=#s14#", "", "20%"};
+		{ 7, 22369, "", "=q4=Desecrated Leggings", "=ds=#m3#", "", "33%"};
+		{ 8, 22362, "", "=q4=Desecrated Legguards", "=ds=#m3#", "", "33%"};
+		{ 9, 22355, "", "=q4=Desecrated Legplates", "=ds=#m3#", "", "33%"};
+		{ 16, 22726, "", "=q5=Splinter of Atiesh", "=ds=#m3#", "", "33%"};
+		{ 17, 22632, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c1#"};
+		{ 18, 22589, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c3#"};
+		{ 19, 22631, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c5#"};
+		{ 20, 22630, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c8#"};
+		Prev = "Naxx60Heigan";
+		Next = "Naxx60Sapphiron";
+	};
+
+		----------------------
+		--- Frostwyrm Lair ---
+		----------------------
+
+	AtlasLoot_Data["Naxx60Sapphiron"] = {
+		{ 1, 23242, "", "=q4=Claw of the Frost Wyrm", "=ds=#h4#, #w13#", "", "19%"};
+		{ 2, 23049, "", "=q4=Sapphiron's Left Eye", "=ds=#s15#", "", "19%"};
+		{ 3, 23048, "", "=q4=Sapphiron's Right Eye", "=ds=#s15#", "", "17%"};
+		{ 4, 23043, "", "=q4=The Face of Death", "=ds=#w8#", "", "18%"};
+		{ 5, 23050, "", "=q4=Cloak of the Necropolis", "=ds=#s4#", "", "18%"};
+		{ 6, 23045, "", "=q4=Shroud of Dominion", "=ds=#s4#", "", "18%"};
+		{ 7, 23046, "", "=q4=The Restrained Essence of Sapphiron", "=ds=#s14#", "", "17%"};
+		{ 8, 23041, "", "=q4=Slayer's Crest", "=ds=#s14#", "", "17%"};
+		{ 9, 23040, "", "=q4=Glyph of Deflection", "=ds=#s14#", "", "17%"};
+		{ 10, 23047, "", "=q4=Eye of the Dead", "=ds=#s14#", "", "17%"};
+		{ 16, 23549, "", "=q4=Fortitude of the Scourge", "=ds=#e17#", "", "50%"};
+		{ 17, 23545, "", "=q4=Power of the Scourge", "=ds=#e17#", "", "50%"};
+		{ 18, 23547, "", "=q4=Resilience of the Scourge", "=ds=#e17#", "", "50%"};
+		{ 19, 23548, "", "=q4=Might of the Scourge", "=ds=#e17#", "", "50%"};
+		Prev = "Naxx60Loatheb";
+		Next = "Naxx60KelThuzad";
+	};
+
+	AtlasLoot_Data["Naxx60KelThuzad"] = {
+		{ 1, 22798, "", "=q4=Might of Menethil", "=ds=#h2#, #w6#", "", "19%"};
+		{ 2, 22799, "", "=q4=Soulseeker", "=ds=#w9#", "", "19%"};
+		{ 3, 23054, "", "=q4=Gressil, Dawn of Ruin", "=ds=#h1#, #w10#", "", "19%"};
+		{ 4, 23577, "", "=q4=The Hungering Cold", "=ds=#h1#, #w10#", "", "18%"};
+		{ 5, 23056, "", "=q4=Hammer of the Twisting Nether", "=ds=#h1#, #w6#", "", "18%"};
+		{ 6, 22802, "", "=q4=Kingsfall", "=ds=#h1#, #w4#", "", "18%"};
+		{ 7, 22812, "", "=q4=Nerubian Slavemaker", "=ds=#w3#", "", "19%"};
+		{ 8, 22821, "", "=q4=Doomfinger", "=ds=#w12#", "", "19%"};
+		{ 9, 22819, "", "=q4=Shield of Condemnation", "=ds=#w8#", "", "18%"};
+		{ 10, 23053, "", "=q4=Stormrage's Talisman of Seething", "=ds=#s2#", "", "19%"};
+		{ 11, 23057, "", "=q4=Gem of Trapped Innocents", "=ds=#s2#", "", "19%"};
+		{ 13, 22520, "", "=q4=The Phylactery of Kel'Thuzad", "=ds=#m3# =q1=", "", "100%"};
+		{ 14, 23206, "", "=q4=Mark of the Champion", "=ds=#s14#", "", ""};
+		{ 15, 23207, "", "=q4=Mark of the Champion", "=ds=#s14#", "", ""};
+		{ 16, 23062, "", "=q4=Frostfire Ring", "=q1=#m1# =ds=#c3# (T3)", "", "20%"};
+		{ 17, 23061, "", "=q4=Ring of Faith", "=q1=#m1# =ds=#c5# (T3)", "", "20%"};
+		{ 18, 23063, "", "=q4=Plagueheart Ring", "=q1=#m1# =ds=#c8# (T3)", "", "20%"};
+		{ 19, 23060, "", "=q4=Bonescythe Ring", "=q1=#m1# =ds=#c6# (T3)", "", "20%"};
+		{ 20, 23064, "", "=q4=Ring of the Dreamwalker", "=q1=#m1# =ds=#c1# (T3)", "", "20%"};
+		{ 21, 23067, "", "=q4=Ring of the Cryptstalker", "=q1=#m1# =ds=#c2# (T3)", "", "20%"};
+		{ 22, 23065, "", "=q4=Ring of the Earthshatterer", "=q1=#m1# =ds=#c7# (T3)", "", "20%"};
+		{ 23, 23059, "", "=q4=Ring of the Dreadnaught", "=q1=#m1# =ds=#c9# (T3)", "", "20%"};
+		{ 24, 23066, "", "=q4=Ring of Redemption", "=q1=#m1# =ds=#c4# (T3)", "", "20%"};
+		{ 26, 22733, "", "=q1=Staff Head of Atiesh", "=ds=#m3#", "", "100%"};
+		{ 27, 22632, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c1#"};
+		{ 28, 22589, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c3#"};
+		{ 29, 22631, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c5#"};
+		{ 30, 22630, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c8#"};
+		Prev = "Naxx60Sapphiron";
+		Next = "Naxx60Trash";
+	};
+
+	AtlasLoot_Data["Naxx60Trash"] = {
+		{ 1, 23221, "", "=q4=Misplaced Servo Arm", "=ds=#h1#, #w6#", "", "1%"};
+		{ 2, 23044, "", "=q4=Harbinger of Doom", "=ds=#h1#, #w4#", "", "1%"};
+		{ 3, 23238, "", "=q4=Stygian Buckler", "=ds=#w8#", "", "1%"};
+		{ 4, 23226, "", "=q4=Ghoul Skin Tunic", "=ds=#s5#, #a2#", "", "1%"};
+		{ 5, 23069, "", "=q4=Necro-Knight's Garb", "=ds=#s5#, #a1#", "", "1%"};
+		{ 6, 23667, "", "=q4=Spaulders of the Grand Crusader", "=ds=#s3#, #a4#", "", "1%"};
+		{ 7, 23666, "", "=q4=Belt of the Grand Crusader", "=ds=#s10#, #a4#", "", "1%"};
+		{ 8, 23668, "", "=q4=Leggings of the Grand Crusader", "=ds=#s11#, #a4#", "", "1%"};
+		{ 9, 23664, "", "=q4=Pauldrons of Elemental Fury", "=ds=#s3#, #a3#", "", "1%"};
+		{ 10, 23663, "", "=q4=Girdle of Elemental Fury", "=ds=#s10#, #a3#", "", "1%"};
+		{ 11, 23665, "", "=q4=Leggings of Elemental Fury", "=ds=#s11#, #a3#", "", "1%"};
+		{ 12, 23237, "", "=q4=Ring of the Eternal Flame", "=ds=#s13#", "", "1%"};
+		{ 16, 22376, "", "=q3=Wartorn Cloth Scrap", "=ds=#m3#", "", "15%"};
+		{ 17, 22373, "", "=q3=Wartorn Leather Scrap", "=ds=#m3#", "", "15%"};
+		{ 18, 22374, "", "=q3=Wartorn Chain Scrap", "=ds=#m3#", "", "15%"};
+		{ 19, 22375, "", "=q3=Wartorn Plate Scrap", "=ds=#m3#", "", "15%"};
+		{ 20, 23055, "", "=q1=Word of Thawing", "=ds=", "", "7.5%"};
+		Prev = "Naxx60KelThuzad";
 	};
 	
 		-------------------------

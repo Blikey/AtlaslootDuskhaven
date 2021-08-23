@@ -716,6 +716,24 @@ end
   -- Maraudon
 	AtlasLoot_TableNames["Maraudon1"] = { BabbleZone["Maraudon"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["Maraudon2"] = { BabbleZone["Maraudon"], "AtlasLootOriginalWoW" };
+  -- Naxxramas
+	AtlasLoot_TableNames["Naxx60Patchwerk"] = { BabbleBoss["Patchwerk"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Naxx60Grobbulus"] = { BabbleBoss["Grobbulus"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Naxx60Gluth1"] = { BabbleBoss["Gluth"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Naxx60Gluth2"] = { BabbleBoss["Gluth"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Naxx60Thaddius"] = { BabbleBoss["Thaddius"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Naxx60AnubRekhan"] = { BabbleBoss["Anub'Rekhan"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Naxx60Faerlina"] = { BabbleBoss["Grand Widow Faerlina"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Naxx60Maexxna"] = { BabbleBoss["Maexxna"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Naxx60Razuvious"] = { BabbleBoss["Instructor Razuvious"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Naxx60Gothik"] = { BabbleBoss["Gothik the Harvester"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Naxx60FourHorsemen"] = { BabbleBoss["The Four Horsemen"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Naxx60Noth"] = { BabbleBoss["Noth the Plaguebringer"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Naxx60Heigan"] = { BabbleBoss["Heigan the Unclean"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Naxx60Loatheb"] = { BabbleBoss["Loatheb"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Naxx60Sapphiron"] = { BabbleBoss["Sapphiron"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Naxx60KelThuzad"] = { BabbleBoss["Kel'Thuzad"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Naxx60Trash"] = { AL["Trash Mobs"].." ("..BabbleZone["Naxxramas"]..")", "AtlasLootOriginalWoW" };
   -- Molten Core
 	AtlasLoot_TableNames["MCRhannox"] = { "Lord Rhannox", "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["MCLucifron"] = { BabbleBoss["Lucifron"], "AtlasLootOriginalWoW" };

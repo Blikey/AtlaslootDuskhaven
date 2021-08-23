@@ -50,51 +50,54 @@ AtlasLoot_DewDropDown = {
 				{ BabbleZone["Molten Core"], "MoltenCore", "Submenu" },
 			},
 			[11] = {
-				{ BabbleZone["Onyxia's Lair"], "OnyxiaL60", "Table" },
+				{ BabbleZone["Naxxramas"], "NaxxramasL60", "Submenu" },
 			},
 			[12] = {
-				{ BabbleZone["Ragefire Chasm"], "RagefireChasm", "Table" },
+				{ BabbleZone["Onyxia's Lair"], "OnyxiaL60", "Table" },
 			},
 			[13] = {
-				{ BabbleZone["Razorfen Downs"], "RazorfenDowns1", "Table" },
+				{ BabbleZone["Ragefire Chasm"], "RagefireChasm", "Table" },
 			},
 			[14] = {
-				{ BabbleZone["Razorfen Kraul"], "RazorfenKraul1", "Table" },
+				{ BabbleZone["Razorfen Downs"], "RazorfenDowns1", "Table" },
 			},
 			[15] = {
-				{ BabbleZone["Ruins of Ahn'Qiraj"], "RuinsofAQ", "Submenu" },
+				{ BabbleZone["Razorfen Kraul"], "RazorfenKraul1", "Table" },
 			},
 			[16] = {
-				{ BabbleZone["Scarlet Monastery"], "Scarlet Monastery", "Submenu" },
+				{ BabbleZone["Ruins of Ahn'Qiraj"], "RuinsofAQ", "Submenu" },
 			},
 			[17] = {
-				{ BabbleZone["Scholomance"], "Scholomance", "Submenu" },
+				{ BabbleZone["Scarlet Monastery"], "Scarlet Monastery", "Submenu" },
 			},
 			[18] = {
-				{ BabbleZone["Shadowfang Keep"], "ShadowfangKeep1", "Table" },
+				{ BabbleZone["Scholomance"], "Scholomance", "Submenu" },
 			},
 			[19] = {
-				{ BabbleZone["The Stockade"], "TheStockade", "Table" },
+				{ BabbleZone["Shadowfang Keep"], "ShadowfangKeep1", "Table" },
 			},
 			[20] = {
-				{ BabbleZone["Stratholme"], "Stratholme", "Submenu" },
+				{ BabbleZone["The Stockade"], "TheStockade", "Table" },
 			},
 			[21] = {
-				{ BabbleZone["Temple of Ahn'Qiraj"], "TempleofAQ", "Submenu" },
+				{ BabbleZone["Stratholme"], "Stratholme", "Submenu" },
 			},
 			[22] = {
-				{ BabbleZone["The Temple of Atal'Hakkar"], "SunkenTemple", "Submenu" },
+				{ BabbleZone["Temple of Ahn'Qiraj"], "TempleofAQ", "Submenu" },
 			},
 			[23] = {
-				{ BabbleZone["Uldaman"], "Uldaman", "Submenu" },
+				{ BabbleZone["The Temple of Atal'Hakkar"], "SunkenTemple", "Submenu" },
 			},
 			[24] = {
-				{ BabbleZone["Wailing Caverns"], "WailingCaverns1", "Table" },
+				{ BabbleZone["Uldaman"], "Uldaman", "Submenu" },
 			},
 			[25] = {
-				{ BabbleZone["Zul'Farrak"], "ZulFarrak", "Submenu" },
+				{ BabbleZone["Wailing Caverns"], "WailingCaverns1", "Table" },
 			},
 			[26] = {
+				{ BabbleZone["Zul'Farrak"], "ZulFarrak", "Submenu" },
+			},
+			[27] = {
 				{ BabbleZone["Zul'Gurub"], "ZulGurub", "Submenu" },
 			},
 		},
@@ -372,6 +375,24 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "MCRagnaros" },
 		{ "", "MCTrashMobs" },
 		{ "", "MCRANDOMBOSSDROPPS" },
+	},
+	["NaxxramasL60"] = {
+		{ "", "Naxx60Patchwerk"},
+		{ "", "Naxx60Grobbulus"},
+		{ "", "Naxx60Gluth1"},
+		{ "", "Naxx60Thaddius"},
+		{ "", "Naxx60AnubRekhan"},
+		{ "", "Naxx60Faerlina"},
+		{ "", "Naxx60Maexxna"},
+		{ "", "Naxx60Razuvious"},
+		{ "", "Naxx60Gothik"},
+		{ "", "Naxx60FourHorsemen"},
+		{ "", "Naxx60Noth"},
+		{ "", "Naxx60Heigan"},
+		{ "", "Naxx60Loatheb"},
+		{ "", "Naxx60Sapphiron"},
+		{ "", "Naxx60KelThuzad"},
+		{ "", "Naxx60Trash"},
 	},
 	["Scarlet Monastery"] = {
 		{ BabbleZone["Armory"], "SMHerod" },
