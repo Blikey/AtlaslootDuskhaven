@@ -3053,7 +3053,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 9, 22819, "", "=q4=Shield of Condemnation", "=ds=#w8#", "", "18%"};
 		{ 10, 23053, "", "=q4=Stormrage's Talisman of Seething", "=ds=#s2#", "", "19%"};
 		{ 11, 23057, "", "=q4=Gem of Trapped Innocents", "=ds=#s2#", "", "19%"};
-		{ 13, 22520, "", "=q4=The Phylactery of Kel'Thuzad", "=ds=#m3# =q1=", "", "100%"};
+		{ 13, 22520, "", "=q4=The Phylactery of Kel'Thuzad", "=ds=#m2# =q1=", "", "100%"};
 		{ 14, 23206, "", "=q4=Mark of the Champion", "=ds=#s14#", "", ""};
 		{ 15, 23207, "", "=q4=Mark of the Champion", "=ds=#s14#", "", ""};
 		{ 16, 23062, "", "=q4=Frostfire Ring", "=q1=#m1# =ds=#c3# (T3)", "", "20%"};
