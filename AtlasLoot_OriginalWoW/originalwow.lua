@@ -2884,7 +2884,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 	AtlasLoot_Data["Naxx60Maexxna"] = {
 		{ 1, 22807, "", "=q4=Wraith Blade", "=ds=#h1#, #w10#", "", "20%"};
 		{ 2, 22804, "", "=q4=Maexxna's Fang", "=ds=#h1#, #w4#", "", "20%"};
-		{ 3, 23220, "", "=q4=Crystal Webbed Robe", "=ds= #s5#, #a1#", "", "20%"};
+		{ 3, 23220, "", "=q4=Crystal Webbed Robe", "=ds=#s5#, #a1#", "", "20%"};
 		{ 4, 22947, "", "=q4=Pendant of Forgotten Names", "=ds=#s2#", "", "20%"};
 		{ 5, 22954, "", "=q4=Kiss of the Spider", "=ds=#s14#", "", "20%"};
 		{ 7, 22369, "", "=q4=Desecrated Gloves", "=ds=#m3#", "", "33%"};
