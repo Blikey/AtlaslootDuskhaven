@@ -2029,6 +2029,10 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 --		{ 17, 16955, "", "=q4=Judgement Crown", "=q1=#m1# =ds=#c4#", "", "8.64%"};
 		{ 9, 16958, "", "=q4=Judgement Breastplate", "=q1=#m1# =ds=#c4#", "", "9.24%"};
 		{ 11, 31102, "", "=q4=Token of the Forgotten Vanquisher", "=ds=Tier 2 Token", "", "100%"};
+		{ 12, 19003, "", "=q4=Head of Nefarian", "=ds=#m2#", "", "100%"};
+		{ 13, 19383, "", "=q4=Master Dragonslayer's Medallion", "=q1=#m4#: =ds=#s2#"};
+		{ 14, 19384, "", "=q4=Master Dragonslayer's Ring", "=q1=#m4#: =ds=#s13#"};
+		{ 15, 19366, "", "=q4=Master Dragonslayer's Orb", "=q1=#m4#: =ds=#s15#"};
 		{ 16, 19378, "", "=q4=Cloak of the Brood Lord", "=ds=#s4#", "", "14.95%"};
 		{ 17, 19375, "", "=q4=Mish'undare, Circlet of the Mind Flayer", "=ds=#s1#, #a1#", "", "14.80%"};
 		{ 18, 19381, "", "=q4=Boots of the Shadow Flame", "=ds=#s12#, #a2#", "", "15.70%"};
@@ -2041,11 +2045,13 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 25, 19363, "", "=q4=Crul'shorukh, Edge of Chaos", "=ds=#h1#, #w1#", "", "7.00%"};
 		{ 26, 19360, "", "=q4=Lok'amir il Romathis", "=ds=#h3#, #w6#", "", "6.98%"};
 		{ 27, 19356, "", "=q4=Staff of the Shadow Flame", "=ds=#w9#", "", "7.27%"};
+		{ 29, 21138, "", "=q1=Red Scepter Shard", "=ds=#m3#", "", "100%"};
 		Prev = "BWLChromaggus";
-		Next = "BWLNefarian2";
+		Next = "BWLTrashMobs";
+--		Next = "BWLNefarian2";
 	};
 
-	AtlasLoot_Data["BWLNefarian2"] = {
+--[[	AtlasLoot_Data["BWLNefarian2"] = {
 		{ 1, 19003, "", "=q4=Head of Nefarian", "=ds=#m2#", "", "100%"};
 		{ 2, 19383, "", "=q4=Master Dragonslayer's Medallion", "=q1=#m4#: =ds=#s2#"};
 		{ 3, 19384, "", "=q4=Master Dragonslayer's Ring", "=q1=#m4#: =ds=#s13#"};
@@ -2053,7 +2059,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 6, 21138, "", "=q1=Red Scepter Shard", "=ds=#m3#", "", "100%"};
 		Prev = "BWLNefarian1";
 		Next = "BWLTrashMobs";
-	};
+	};]]--
 
 	AtlasLoot_Data["BWLTrashMobs"] = {
 		{ 1, 19436, "", "=q4=Cloak of Draconic Might", "=ds=#s4#", "", "2.53%"};
@@ -2067,7 +2073,12 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 9, 19435, "", "=q4=Essence Gatherer", "=ds=#w12#", "", "1.61%"};
 		{ 16, 18562, "", "=q4=Elementium Ore", "=ds=#e8#", "", "4.75%"};
 		{ 18, 21109, "", "=q1=Draconic for Dummies", "=ds=#m3#"};
-		Prev = "BWLNefarian2";
+		Prev = "BWLNefarian1";
+		Next = "BWLUnknown";
+	};
+	
+	AtlasLoot_Data["BWLUnknown"] = {
+		Prev = "BWLTrashMobs";
 	};
 	
 		-------------------------------------------------
@@ -2292,16 +2303,28 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 4, 57109, "", "=q4=Crul'shorukh, Edge of Chaos", "=ds=#h1#, #w1#", "", "7.00%"};
 		{ 3, 57110, "", "=q4=Lok'amir il Romathis", "=ds=#h3#, #w6#", "", "6.98%"};
 		{ 2, 57111, "", "=q4=Staff of the Shadow Flame", "=ds=#w9#", "", "7.27%"};
+		{ 16, 19003, "", "=q4=Head of Nefarian", "=ds=#m2#", "", "100%"};
+		{ 17, 19383, "", "=q4=Master Dragonslayer's Medallion", "=q1=#m4#: =ds=#s2#"};
+		{ 18, 19384, "", "=q4=Master Dragonslayer's Ring", "=q1=#m4#: =ds=#s13#"};
+		{ 19, 19366, "", "=q4=Master Dragonslayer's Orb", "=q1=#m4#: =ds=#s15#"};
+		{ 21, 21138, "", "=q1=Red Scepter Shard", "=ds=#m3#", "", "100%"};
 		Prev = "BWLChromaggusHEROIC";
-		Next = "BWLNefarian2HEROIC";
+		Next = "BWLUnknownHEROIC";
 	};
 
-	AtlasLoot_Data["BWLNefarian2HEROIC"] = {
+--[[	AtlasLoot_Data["BWLNefarian2HEROIC"] = {
 		{ 1, 19003, "", "=q4=Head of Nefarian", "=ds=#m2#", "", "100%"};
 		{ 2, 19383, "", "=q4=Master Dragonslayer's Medallion", "=q1=#m4#: =ds=#s2#"};
 		{ 3, 19384, "", "=q4=Master Dragonslayer's Ring", "=q1=#m4#: =ds=#s13#"};
 		{ 4, 19366, "", "=q4=Master Dragonslayer's Orb", "=q1=#m4#: =ds=#s15#"};
 		{ 6, 21138, "", "=q1=Red Scepter Shard", "=ds=#m3#", "", "100%"};
+		Prev = "BWLNefarian1HEROIC";
+		Next = "BWLUnknownHEROIC";
+	};]]--
+
+	
+	AtlasLoot_Data["BWLUnknownHEROIC"] = {
+		{ 1, 57099, "", "=q4=Drake Talon Cleaver", "=ds=#h2#, #w1#", "", ""};
 		Prev = "BWLNefarian1HEROIC";
 	};
 

@@ -339,6 +339,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "BWLChromaggus" },
 		{ "", "BWLNefarian1" },
 		{ "", "BWLTrashMobs" },
+		{ "", "BWLUnknown" },
 	},
 	["Karazhan"] = {
 		{ "", "KaraAttumen" },
