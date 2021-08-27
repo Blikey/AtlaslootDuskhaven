@@ -2325,6 +2325,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 	
 	AtlasLoot_Data["BWLUnknownHEROIC"] = {
 		{ 1, 57099, "", "=q4=Drake Talon Cleaver", "=ds=#h2#, #w1#", "", ""};
+		{ 2, 57120, "", "=q4=Drake Fang Talisman", "=ds=#s14#", "", ""};
 		Prev = "BWLNefarian1HEROIC";
 	};
 
