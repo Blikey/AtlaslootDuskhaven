@@ -2158,8 +2158,9 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 --		{ 8, 16964, "", "=q4=Gauntlets of Wrath", "=q1=#m1# =ds=#c9#", "", "5.93%"};
 --		{ 9, 16956, "", "=q4=Judgement Gauntlets", "=q1=#m1# =ds=#c4#", "", "3.58%"};
 --		{ 10, 31102, "", "=q4=Token of the Forgotten Vanquisher", "=ds=Tier 2 Token", "", "50%"};
-		{ 2, 57097, "", "=q4=Claw of the Black Drake", "=ds=#h3#, #w13#", "", "15.97%"};
-		{ 1, 57098, "", "=q4=Shadow Wing Focus Staff", "=ds=#w9#", "", "3.70%"};
+		{ 3, 57097, "", "=q4=Claw of the Black Drake", "=ds=#h3#, #w13#", "", "15.97%"};
+		{ 2, 57098, "", "=q4=Shadow Wing Focus Staff", "=ds=#w9#", "", "3.70%"};
+		{ 1, 57099, "", "=q4=Drake Talon Cleaver", "=ds=#h2#, #w1#", "", ""};
 --		{ 1, 57099, "", "=q4=Drake Talon Cleaver", "=ds=#h2#, #w1#", "", "3.18%"};
 		{ 16, 57086, "", "=q4=Scrolls of Blinding Light", "=ds=#s14#, =q1=#m1# =ds=#c4#", "", "9.17%"};
 		{ 17, 57087, "", "=q4=Natural Alignment Crystal", "=ds=#s14#, =q1=#m1# =ds=#c7#", "", "4.03%"};
@@ -2324,8 +2325,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 
 	
 	AtlasLoot_Data["BWLUnknownHEROIC"] = {
-		{ 1, 57099, "", "=q4=Drake Talon Cleaver", "=ds=#h2#, #w1#", "", ""};
-		{ 2, 57120, "", "=q4=Drake Fang Talisman", "=ds=#s14#", "", ""};
+		{ 1, 57120, "", "=q4=Drake Fang Talisman", "=ds=#s14#", "", ""};
 		Prev = "BWLNefarian1HEROIC";
 	};
 
