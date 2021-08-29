@@ -5212,16 +5212,17 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 2, 57004, "", "=q4=Greataxe of the Warrior (S2)", "=ds=#h2#, #w1#", "50 #eoftriumph#", ""};
 		{ 3, 56996, "", "=q4=Two-Ton Hammer (S2)", "=ds=#h2#, #w6#", "50 #eoftriumph#", ""};
 		{ 4, 57005, "", "=q4=Staff of the Explorer (S2)", "=ds=#w9#", "50 #eoftriumph#", ""};
-		{ 5, 57001, "", "=q4=Twine-Covered Bow (S2)", "=ds=#w2#", "50 #eoftriumph#", ""};
-		{ 6, 57003, "", "=q4=Lava Warhammer (S2)", "=ds=#h1#, #w6#", "25 #eoftriumph#", ""};
-		{ 7, 56997, "", "=q4=Atonement Hammer (S2)", "=ds=#h1#, #w6#", "25 #eoftriumph#", ""};
-		{ 8, 56994, "", "=q4=Bane Broadsword (S2)", "=ds=#h1#, #w10#", "25 #eoftriumph#", ""};
+		{ 5, 57122, "", "=q4=Ice Barbed Spear", "=ds=#w7#", "50 #eoftriumph#", ""};
+		{ 6, 57001, "", "=q4=Twine-Covered Bow (S2)", "=ds=#w2#", "50 #eoftriumph#", ""};
+		{ 7, 57003, "", "=q4=Lava Warhammer (S2)", "=ds=#h1#, #w6#", "25 #eoftriumph#", ""};
+		{ 8, 56997, "", "=q4=Atonement Hammer (S2)", "=ds=#h1#, #w6#", "25 #eoftriumph#", ""};
+		{ 9, 56994, "", "=q4=Bane Broadsword (S2)", "=ds=#h1#, #w10#", "25 #eoftriumph#", ""};
 --		{ 9, 56812, "", "=q4=Cursed Felblade (S2)", "=ds=#h1#, #w10#", "25 #eoftriumph#", ""};
-		{ 9, 57000, "", "=q4=Dragonfang Dagger (S2)", "=ds=#h1#, #w4#", "25 #eoftriumph#", ""};
-		{ 10, 56999, "", "=q4=Rune-Etched Dagger (S2)", "=ds=#h1#, #w4#", "25 #eoftriumph#", ""};
-		{ 11, 57002, "", "=q4=Mazthoril Shield (S2)", "=ds=#w8#", "25 #eoftriumph#", ""};
-		{ 12, 57012, "", "=q4=Magma Shield (S2)", "=ds=#w8#", "25 #eoftriumph#", ""};
-		{ 13, 56998, "", "=q4=Jeweled Grimoire (S2)", "=ds=#h4#", "25 #eoftriumph#", ""};
+		{ 10, 57000, "", "=q4=Dragonfang Dagger (S2)", "=ds=#h1#, #w4#", "25 #eoftriumph#", ""};
+		{ 11, 56999, "", "=q4=Rune-Etched Dagger (S2)", "=ds=#h1#, #w4#", "25 #eoftriumph#", ""};
+		{ 12, 57002, "", "=q4=Mazthoril Shield (S2)", "=ds=#w8#", "25 #eoftriumph#", ""};
+		{ 13, 57012, "", "=q4=Magma Shield (S2)", "=ds=#w8#", "25 #eoftriumph#", ""};
+		{ 14, 56998, "", "=q4=Jeweled Grimoire (S2)", "=ds=#h4#", "25 #eoftriumph#", ""};
 		
 --[[		{ 16, 56882, "", "=q4=Chained Totem", "=ds=#w15#", "", ""};
 		{ 17, 56881, "", "=q4=Storm Sigil", "=ds=#w15#", "", ""};
