@@ -5208,21 +5208,21 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		Back = "MYTHICMENU";
 	};
 		AtlasLoot_Data["SEASON2"] = {
-		{ 1, 56995, "", "=q4=The Bone Arbiter (S2)", "=ds=#h2#, #w1#", "50 #eoftriumph#", ""};
-		{ 2, 57004, "", "=q4=Greataxe of the Warrior (S2)", "=ds=#h2#, #w1#", "50 #eoftriumph#", ""};
-		{ 3, 56996, "", "=q4=Two-Ton Hammer (S2)", "=ds=#h2#, #w6#", "50 #eoftriumph#", ""};
-		{ 4, 57005, "", "=q4=Staff of the Explorer (S2)", "=ds=#w9#", "50 #eoftriumph#", ""};
-		{ 5, 57122, "", "=q4=Ice Barbed Spear", "=ds=#w7#", "50 #eoftriumph#", ""};
-		{ 6, 57001, "", "=q4=Twine-Covered Bow (S2)", "=ds=#w2#", "50 #eoftriumph#", ""};
-		{ 7, 57003, "", "=q4=Lava Warhammer (S2)", "=ds=#h1#, #w6#", "25 #eoftriumph#", ""};
-		{ 8, 56997, "", "=q4=Atonement Hammer (S2)", "=ds=#h1#, #w6#", "25 #eoftriumph#", ""};
-		{ 9, 56994, "", "=q4=Bane Broadsword (S2)", "=ds=#h1#, #w10#", "25 #eoftriumph#", ""};
---		{ 9, 56812, "", "=q4=Cursed Felblade (S2)", "=ds=#h1#, #w10#", "25 #eoftriumph#", ""};
-		{ 10, 57000, "", "=q4=Dragonfang Dagger (S2)", "=ds=#h1#, #w4#", "25 #eoftriumph#", ""};
-		{ 11, 56999, "", "=q4=Rune-Etched Dagger (S2)", "=ds=#h1#, #w4#", "25 #eoftriumph#", ""};
-		{ 12, 57002, "", "=q4=Mazthoril Shield (S2)", "=ds=#w8#", "25 #eoftriumph#", ""};
-		{ 13, 57012, "", "=q4=Magma Shield (S2)", "=ds=#w8#", "25 #eoftriumph#", ""};
-		{ 14, 56998, "", "=q4=Jeweled Grimoire (S2)", "=ds=#h4#", "25 #eoftriumph#", ""};
+		{ 1, 56995, "", "=q4=The Bone Arbiter (S2)", "=ds=#h2#, #w1#", "45 #eoftriumph#", ""};
+		{ 2, 57004, "", "=q4=Greataxe of the Warrior (S2)", "=ds=#h2#, #w1#", "45 #eoftriumph#", ""};
+		{ 3, 56996, "", "=q4=Two-Ton Hammer (S2)", "=ds=#h2#, #w6#", "45 #eoftriumph#", ""};
+		{ 4, 57005, "", "=q4=Staff of the Explorer (S2)", "=ds=#w9#", "45 #eoftriumph#", ""};
+		{ 5, 57122, "", "=q4=Ice Barbed Spear", "=ds=#w7#", "45 #eoftriumph#", ""};
+		{ 6, 57001, "", "=q4=Twine-Covered Bow (S2)", "=ds=#w2#", "45 #eoftriumph#", ""};
+		{ 7, 57003, "", "=q4=Lava Warhammer (S2)", "=ds=#h1#, #w6#", "22 #eoftriumph#", ""};
+		{ 8, 56997, "", "=q4=Atonement Hammer (S2)", "=ds=#h1#, #w6#", "22 #eoftriumph#", ""};
+		{ 9, 56994, "", "=q4=Bane Broadsword (S2)", "=ds=#h1#, #w10#", "22 #eoftriumph#", ""};
+--		{ 9, 56812, "", "=q4=Cursed Felblade (S2)", "=ds=#h1#, #w10#", "22 #eoftriumph#", ""};
+		{ 10, 57000, "", "=q4=Dragonfang Dagger (S2)", "=ds=#h1#, #w4#", "22 #eoftriumph#", ""};
+		{ 11, 56999, "", "=q4=Rune-Etched Dagger (S2)", "=ds=#h1#, #w4#", "22 #eoftriumph#", ""};
+		{ 12, 57002, "", "=q4=Mazthoril Shield (S2)", "=ds=#w8#", "22 #eoftriumph#", ""};
+		{ 13, 57012, "", "=q4=Magma Shield (S2)", "=ds=#w8#", "22 #eoftriumph#", ""};
+		{ 14, 56998, "", "=q4=Jeweled Grimoire (S2)", "=ds=#h4#", "22 #eoftriumph#", ""};
 		
 --[[		{ 16, 56882, "", "=q4=Chained Totem", "=ds=#w15#", "", ""};
 		{ 17, 56881, "", "=q4=Storm Sigil", "=ds=#w15#", "", ""};
@@ -5237,15 +5237,15 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 16, 56808, "", "=q4=Robes of Evocation", "=ds=#a1#, #s5#", "", ""};
 		{ 17, 56807, "", "=q4=Crystalline Cuffs", "=ds=#s8#, #a1#", "", ""};--]]
 
-		{ 16, 56992, "", "=q4=Dragon's Demise (S2)", "=ds=#s13#", "25 #eoftriumph#", ""};
-		{ 17, 56993, "", "=q4=Dragonflight Band (S2)", "=ds=#s13#", "25 #eoftriumph#", ""};	
-		{ 18, 56990, "", "=q4=Last Resolve (S2)", "=ds=#s13#", "25 #eoftriumph#", ""};
-		{ 19, 56991, "", "=q4=Wildcat Signet (S2)", "=ds=#s13#", "25 #eoftriumph#", ""};
-		{ 20, 57030, "", "=q4=Blood Sun Necklace", "=ds=#s2#", "25 #eoftriumph#", ""};
-		{ 21, 57031, "", "=q4=Bulwark Necklace", "=ds=#s2#", "25 #eoftriumph#", ""};
-		{ 22, 57029, "", "=q4=Dragonflight Necklace", "=ds=#s2#", "25 #eoftriumph#", ""};
-		{ 23, 57079, "", "=q4=Stone Insignia (S2)", "=ds=#s14#", "25 #eoftriumph#", ""};	
-		{ 24, 56989, "", "=q4=Whale Insignia (S2)", "=ds=#s14#", "25 #eoftriumph#", ""};		
+		{ 16, 56992, "", "=q4=Dragon's Demise (S2)", "=ds=#s13#", "22 #eoftriumph#", ""};
+		{ 17, 56993, "", "=q4=Dragonflight Band (S2)", "=ds=#s13#", "22 #eoftriumph#", ""};	
+		{ 18, 56990, "", "=q4=Last Resolve (S2)", "=ds=#s13#", "22 #eoftriumph#", ""};
+		{ 19, 56991, "", "=q4=Wildcat Signet (S2)", "=ds=#s13#", "22 #eoftriumph#", ""};
+		{ 20, 57030, "", "=q4=Blood Sun Necklace", "=ds=#s2#", "22 #eoftriumph#", ""};
+		{ 21, 57031, "", "=q4=Bulwark Necklace", "=ds=#s2#", "22 #eoftriumph#", ""};
+		{ 22, 57029, "", "=q4=Dragonflight Necklace", "=ds=#s2#", "22 #eoftriumph#", ""};
+		{ 23, 57079, "", "=q4=Stone Insignia (S2)", "=ds=#s14#", "22 #eoftriumph#", ""};	
+		{ 24, 56989, "", "=q4=Whale Insignia (S2)", "=ds=#s14#", "22 #eoftriumph#", ""};		
 
 		Next = "SEASON2PAGE2";
 		Back = "MYTHICMENU";
@@ -5282,11 +5282,11 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 5, 56846, "", "=q4=Moonglade Leggings", "=ds=#s11#, #a2#"};
 		{ 6, 56847, "", "=q4=Moonglade Wraps", "=ds=#s9#, #a2#"};
 		{ 16, 0, "spell_arcane_teleportmoonglade", "=q6=#ds3s6#", "=ec1=#j56#"};
-		{ 17, 56984, "", "=q4=Moonglade Headpiece (S2)", "50 #eoftriumph#"};
-		{ 18, 56985, "", "=q4=Moonglade Shoulderpads (S2)", "50 #eoftriumph#"};
-		{ 19, 56986, "", "=q4=Moonglade Robes (S2)", "50 #eoftriumph#"};
-		{ 20, 56987, "", "=q4=Moonglade Leggings (S2)", "50 #eoftriumph#"};
-		{ 21, 56988, "", "=q4=Moonglade Wraps (S2)", "30 #eoftriumph#"};
+		{ 17, 56984, "", "=q4=Moonglade Headpiece (S2)", "45 #eoftriumph#"};
+		{ 18, 56985, "", "=q4=Moonglade Shoulderpads (S2)", "45 #eoftriumph#"};
+		{ 19, 56986, "", "=q4=Moonglade Robes (S2)", "45 #eoftriumph#"};
+		{ 20, 56987, "", "=q4=Moonglade Leggings (S2)", "45 #eoftriumph#"};
+		{ 21, 56988, "", "=q4=Moonglade Wraps (S2)", "25 #eoftriumph#"};
 		Back = "MYTHICSET";
 		}
 		
@@ -5298,11 +5298,11 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 5, 56821, "", "=q4=Bluefang Leggings", "=ds=#s11#, #a2#"};
 		{ 6, 56820, "", "=q4=Bluefang Gloves", "=ds=#s9#, #a2#"};
 		{ 16, 0, "ability_rogue_masterofsubtlety", "=q6=Bluefang Armor", "=ec1=#j56#"};
-		{ 17, 56949, "", "=q4=Bluefang Hood (S2)", "50 #eoftriumph#"};
-		{ 18, 56950, "", "=q4=Bluefang Spaulders (S2)", "50 #eoftriumph#"};
-		{ 19, 56951, "", "=q4=Bluefang Chestpiece (S2)", "50 #eoftriumph#"};
-		{ 20, 56952, "", "=q4=Bluefang Leggings (S2)", "50 #eoftriumph#"};
-		{ 21, 56953, "", "=q4=Bluefang Gloves (S2)", "30 #eoftriumph#"};
+		{ 17, 56949, "", "=q4=Bluefang Hood (S2)", "45 #eoftriumph#"};
+		{ 18, 56950, "", "=q4=Bluefang Spaulders (S2)", "45 #eoftriumph#"};
+		{ 19, 56951, "", "=q4=Bluefang Chestpiece (S2)", "45 #eoftriumph#"};
+		{ 20, 56952, "", "=q4=Bluefang Leggings (S2)", "45 #eoftriumph#"};
+		{ 21, 56953, "", "=q4=Bluefang Gloves (S2)", "25 #eoftriumph#"};
 		Back = "MYTHICSET";
 		}
 		
@@ -5330,11 +5330,11 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 5, 56825, "", "=q4=Legplates of Penance", "=ds=#s11#, #a4#"};
 		{ 6, 56826, "", "=q4=Gauntlets of Penance", "=ds=#s9#, #a4#"};
 		{ 16, 0, "Ability_Warrior_BattleShout", "=q6=Penance Battlegear", "=ec1=#j56#"};
-		{ 17, 56959, "", "=q4=Mask of Penance (S2)", "50 #eoftriumph#"};
-		{ 18, 56960, "", "=q4=Shoulderplates of Penance (S2)", "50 #eoftriumph#"};
-		{ 19, 56961, "", "=q4=Breastplate of Penance (S2)", "50 #eoftriumph#"};
-		{ 20, 56962, "", "=q4=Legplates of Penance (S2)", "50 #eoftriumph#"};
-		{ 21, 56963, "", "=q4=Gauntlets of Penance (S2)", "30 #eoftriumph#"};
+		{ 17, 56959, "", "=q4=Mask of Penance (S2)", "45 #eoftriumph#"};
+		{ 18, 56960, "", "=q4=Shoulderplates of Penance (S2)", "45 #eoftriumph#"};
+		{ 19, 56961, "", "=q4=Breastplate of Penance (S2)", "45 #eoftriumph#"};
+		{ 20, 56962, "", "=q4=Legplates of Penance (S2)", "45 #eoftriumph#"};
+		{ 21, 56963, "", "=q4=Gauntlets of Penance (S2)", "25 #eoftriumph#"};
 		Back = "MYTHICSET";
 		}
 		
@@ -5346,11 +5346,11 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 5, 56840, "", "=q4=Ruby Legguards", "=ds=#s11#, #a4#"};
 		{ 6, 56841, "", "=q4=Ruby Gauntlets", "=ds=#s9#, #a4#"};
 		{ 16, 0, "ability_warrior_shieldwall", "=q6=Ruby Plate", "=ec1=#j56#"};
-		{ 17, 56969, "", "=q4=Ruby Helm (S2)", "50 #eoftriumph#"};
-		{ 18, 56970, "", "=q4=Ruby Spaulders (S2)", "50 #eoftriumph#"};
-		{ 19, 56971, "", "=q4=Ruby Chestguard (S2)", "50 #eoftriumph#"};
-		{ 20, 56972, "", "=q4=Ruby Legguards (S2)", "50 #eoftriumph#"};
-		{ 21, 56973, "", "=q4=Ruby Gauntlets (S2)", "30 #eoftriumph#"};
+		{ 17, 56969, "", "=q4=Ruby Helm (S2)", "45 #eoftriumph#"};
+		{ 18, 56970, "", "=q4=Ruby Spaulders (S2)", "45 #eoftriumph#"};
+		{ 19, 56971, "", "=q4=Ruby Chestguard (S2)", "45 #eoftriumph#"};
+		{ 20, 56972, "", "=q4=Ruby Legguards (S2)", "45 #eoftriumph#"};
+		{ 21, 56973, "", "=q4=Ruby Gauntlets (S2)", "25 #eoftriumph#"};
 		Back = "MYTHICSET";
 		}
 		
@@ -5362,11 +5362,11 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 5, 56830, "", "=q4=Demonfang Leggings", "=ds=#s11#, #a1#"};
 		{ 6, 56831, "", "=q4=Demonfang Gloves", "=ds=#s9#, #a1#"};
 		{ 16, 0, "Spell_Frost_IceStorm", "=q6=Demonfang Regalia", "=ec1=#j56#"};
-		{ 17, 56954, "", "=q4=Demonfang Mask (S2)", "50 #eoftriumph#"};
-		{ 18, 56955, "", "=q4=Demonfang Spaulders (S2)", "50 #eoftriumph#"};
-		{ 19, 56956, "", "=q4=Demonfang Robe (S2)", "50 #eoftriumph#"};
-		{ 20, 56957, "", "=q4=Demonfang Leggings (S2)", "50 #eoftriumph#"};
-		{ 21, 56958, "", "=q4=Demonfang Gloves (S2)", "30 #eoftriumph#"};
+		{ 17, 56954, "", "=q4=Demonfang Mask (S2)", "45 #eoftriumph#"};
+		{ 18, 56955, "", "=q4=Demonfang Spaulders (S2)", "45 #eoftriumph#"};
+		{ 19, 56956, "", "=q4=Demonfang Robe (S2)", "45 #eoftriumph#"};
+		{ 20, 56957, "", "=q4=Demonfang Leggings (S2)", "45 #eoftriumph#"};
+		{ 21, 56958, "", "=q4=Demonfang Gloves (S2)", "25 #eoftriumph#"};
 		Back = "MYTHICSET";
 		}
 		
@@ -5378,11 +5378,11 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 5, 56851, "", "=q4=Tidefury Britches", "=ds=#s11#, #a3#"};
 		{ 6, 56852, "", "=q4=Tidefury Gauntlets", "=ds=#s9#, #a3#"};
 		{ 16, 0, "Spell_FireResistanceTotem_01", "=q6=Tidefury Raiment", "=ec1=#j56#"};
-		{ 17, 56979, "", "=q4=Tidefury Helmet (S2)", "50 #eoftriumph#"};
-		{ 18, 56980, "", "=q4=Tidefury Shoulderpads (S2)", "50 #eoftriumph#"};
-		{ 19, 56981, "", "=q4=Tidefury Chestpiece (S2)", "50 #eoftriumph#"};
-		{ 20, 56982, "", "=q4=Tidefury Britches (S2)", "50 #eoftriumph#"};
-		{ 21, 56983, "", "=q4=Tidefury Gauntlets (S2)", "30 #eoftriumph#"};
+		{ 17, 56979, "", "=q4=Tidefury Helmet (S2)", "45 #eoftriumph#"};
+		{ 18, 56980, "", "=q4=Tidefury Shoulderpads (S2)", "45 #eoftriumph#"};
+		{ 19, 56981, "", "=q4=Tidefury Chestpiece (S2)", "45 #eoftriumph#"};
+		{ 20, 56982, "", "=q4=Tidefury Britches (S2)", "45 #eoftriumph#"};
+		{ 21, 56983, "", "=q4=Tidefury Gauntlets (S2)", "25 #eoftriumph#"};
 		Back = "MYTHICSET";
 		}
 		
@@ -5394,11 +5394,11 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 5, 56835, "", "=q4=Dreamwing Greaves", "=ds=#s11#, #a3#"};
 		{ 6, 56836, "", "=q4=Dreamwing Gauntlets", "=ds=#s9#, #a3#"};
 		{ 16, 0, "inv_spear_02", "=q6=Dreamwing Armor", "=ec1=#j56#"};
-		{ 17, 56964, "", "=q4=Dreamwing Helmet (S2)", "50 #eoftriumph#"};
-		{ 18, 56965, "", "=q4=Dreamwing Pauldrons (S2)", "50 #eoftriumph#"};
-		{ 19, 56966, "", "=q4=Dreamwing Chestpiece (S2)", "50 #eoftriumph#"};
-		{ 20, 56967, "", "=q4=Dreamwing Greaves (S2)", "50 #eoftriumph#"};
-		{ 21, 56968, "", "=q4=Dreamwing Gauntlets (S2)", "30 #eoftriumph#"};
+		{ 17, 56964, "", "=q4=Dreamwing Helmet (S2)", "45 #eoftriumph#"};
+		{ 18, 56965, "", "=q4=Dreamwing Pauldrons (S2)", "45 #eoftriumph#"};
+		{ 19, 56966, "", "=q4=Dreamwing Chestpiece (S2)", "45 #eoftriumph#"};
+		{ 20, 56967, "", "=q4=Dreamwing Greaves (S2)", "45 #eoftriumph#"};
+		{ 21, 56968, "", "=q4=Dreamwing Gauntlets (S2)", "25 #eoftriumph#"};
 		Back = "MYTHICSET";
 		}
 		
@@ -5426,11 +5426,11 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 5, 56856, "", "=q4=Legguards of the Bold", "=ds=#s11#, #a4#"};
 		{ 6, 56857, "", "=q4=Gauntlets of the Bold", "=ds=#s9#, #a4#"};
 		{ 16, 0, "spell_holy_holybolt", "=q6=Bold Armor", "=ec1=#j56#"};
-		{ 17, 56978, "", "=q4=Helm of the Bold (S2)", "50 #eoftriumph#"};
-		{ 18, 56975, "", "=q4=Spaulders of the Bold (S2)", "50 #eoftriumph#"};
-		{ 19, 56977, "", "=q4=Chestguard of the Bold (S2)", "50 #eoftriumph#"};
-		{ 20, 56976, "", "=q4=Legguards of the Bold (S2)", "50 #eoftriumph#"};
-		{ 21, 56974, "", "=q4=Gauntlets of the Bold (S2)", "30 #eoftriumph#"};
+		{ 17, 56978, "", "=q4=Helm of the Bold (S2)", "45 #eoftriumph#"};
+		{ 18, 56975, "", "=q4=Spaulders of the Bold (S2)", "45 #eoftriumph#"};
+		{ 19, 56977, "", "=q4=Chestguard of the Bold (S2)", "45 #eoftriumph#"};
+		{ 20, 56976, "", "=q4=Legguards of the Bold (S2)", "45 #eoftriumph#"};
+		{ 21, 56974, "", "=q4=Gauntlets of the Bold (S2)", "25 #eoftriumph#"};
 		Back = "MYTHICSET";
 		}
 		
